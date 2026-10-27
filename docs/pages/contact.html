@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Patty Arana Photo</title>
+<link rel="stylesheet" href="/styles/styles.css">
+<link rel="stylesheet" href="https://fonts.cdnfonts.com/css/wedding-photography-2">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <button><a href="/pages/portfolio.html">Portfolio</a></button>
+            <button><a href="/pages/about.html">About</a></button>
+            <button><a href="/pages/contact.html">Contact</a></button>
+            <button><a href="/pages/pricing.html">Pricing & Planning</a></button>
+        </div>
+    </header>
+<div class="contact-section">
+    <div class="contact-card">
+        <div class="contact-header">
+            <img src="/images/logo.png" alt="Contact Photo" class="contact-photo">
+            <h1>Contact Me</h1>
+            <p>Have a question or want to get in touch? Send me a message!</p>
+        </div>
+
+        <form action="send-email.php" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name"
+                       placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                       placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message"
+                          placeholder="Write your message here..."
+                          rows="6" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Send Message →
+            </button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
