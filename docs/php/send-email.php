@@ -34,7 +34,7 @@ if ($words === false || count($words) > 50) {
 }
 
 // Email settings — replace these placeholders
-$to = "your-email@example.com";
+$to = "joshuagriffinphotography@gmail.com";
 $subject = "New Message - Patty Arana Photo";
 
 // Remove line breaks from the name for safer email formatting
